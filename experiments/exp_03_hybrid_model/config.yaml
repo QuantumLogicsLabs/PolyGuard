@@ -1,0 +1,14 @@
+experiment: exp_03_hybrid_model
+description: Hybrid ML + Rules fusion (planned)
+status: planned
+
+fusion:
+  strategy: confidence_boost
+  boost_amount: 0.05
+  sources: [rules, codebert]
+
+notes: >
+  The fusion layer will combine rule findings and ML findings.
+  When both flag the same vuln_type, confidence is boosted
+  and the finding is marked source=fusion.
+  Future work: learned fusion weights via a small MLP.

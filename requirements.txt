@@ -1,9 +1,19 @@
-fastapi                # FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
-uvicorn                # Uvicorn is a lightning-fast ASGI server.
-torch                  # Torch is a library for deep learning.  
-transformers           # Transformers is a library for natural language processing (NLP).
-tree-sitter            # Tree-sitter is a library for parsing and transforming trees.
-pymongo                # PyMongo is a Python driver for MongoDB.
-redis                  # Redis is an in-memory data structure store, used as a database, cache and message broker.
-celery                 # Celery is a task queue for Python. It is used to run tasks asynchronously.
-pytest                 # Pytest is a testing framework for Python. It is used to test the code.
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+torch>=2.0.0
+transformers>=4.38.0
+tree-sitter==0.21.3
+pymongo==4.6.3
+redis==5.0.4
+celery==5.3.6
+pytest==8.1.1
+pytest-asyncio==0.23.6
+httpx==0.27.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pydantic>=2.6.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.1
+lightgbm>=4.3.0
+scipy>=1.13.0
+tqdm>=4.66.2

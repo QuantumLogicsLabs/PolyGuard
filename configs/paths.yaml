@@ -1,0 +1,19 @@
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  labels_dir: "data/labels"
+  train_file: "data/processed/train.json"
+  val_file: "data/processed/val.json"
+  test_file: "data/processed/test.json"
+
+models:
+  save_dir: "models_saved"
+  best_model: "models_saved/best_model.pt"
+  baseline_model: "models_saved/baseline_tfidf.pkl"
+
+experiments:
+  log_dir: "experiments/logs"
+
+logging:
+  level: "INFO"
+  log_file: "experiments/logs/polyguard.log"
